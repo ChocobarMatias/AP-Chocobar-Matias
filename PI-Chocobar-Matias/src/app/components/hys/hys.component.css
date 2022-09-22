@@ -1,0 +1,7 @@
+.row{
+    background-color: #a1b5cd;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
