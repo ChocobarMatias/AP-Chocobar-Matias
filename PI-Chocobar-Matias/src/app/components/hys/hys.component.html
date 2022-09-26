@@ -1,59 +1,64 @@
-<div>
-    <div class="skills">
 <div class="row">
-    <h1>Hard & soft skills</h1>
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
-        <circle-progress
-          [percent]="90"
-          [radius]="100"
-          [imageSrc]="'../../../assets/html.png'"
-          [showImage]="true"
-          [imageHeight]="100"
-          [imageWidth]="100"
-          [outerStrokeWidth]="13"
-          [innerStrokeWidth]="3"
-          [outerStrokeColor]="'orange'"
-          [innerStrokeColor]="'orange'"
-          [animation]="true"
-          [animationDuration]="2000"
-        ></circle-progress>
-      </div>
-<div class="row">
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="90"
-    [radius]="100"
-    [imageSrc]="'../../../assets/CSS.png'"
-    [showImage]="true"
-    [imageHeight]="100"
-    [imageWidth]="100"
-    [outerStrokeWidth]="13"
-    [innerStrokeWidth]="3"
-    [outerStrokeColor]="'orange'"
-    [innerStrokeColor]="'orange'"
-    [animation]="true"
-    [animationDuration]="2000"
-  ></circle-progress>
+       <h1>Hard & soft skills</h1>
+         <div class="text-center col-sm-4 col-md-4 col-lg-4">
+           <circle-progress
+             [percent]="90"
+             [radius]="100"
+             [imageSrc]="'../../../assets/html.png'"
+             [showImage]="true"
+             [imageHeight]="100"
+             [imageWidth]="100"
+             [showUnits]="false"
+             [showSubtitle]="false"
+             [outerStrokeWidth]="15"
+             [innerStrokeWidth]="0"
+             [outerStrokeColor]="'red'"
+             [innerStrokeColor]="'red'"
+             [backgroundGradient]="true"
+             [backgroundColor]="'red'"
+             [animation]="true"
+             [animationDuration]="1000"
+            ></circle-progress>   
+    </div>
+<div class="text-center col-sm-4 col-md-4 col-lg-4">
+            <circle-progress
+             [percent]="90"
+             [radius]="100"
+             [imageSrc]="'../../../assets/CSS.png'"
+             [showImage]="true"
+             [imageHeight]="100"
+             [imageWidth]="100"
+             [showUnits]="false"
+             [showSubtitle]="false"
+             [outerStrokeWidth]="13"
+             [innerStrokeWidth]="0"
+             [outerStrokeColor]="'blue'"
+             [innerStrokeColor]="'blue'"
+             [backgroundGradient]="true"
+             [backgroundColor]="'blue'"
+             [animation]="true"
+             [animationDuration]="2000"
+            ></circle-progress>
+  </div>       
+<div class="text-center col-sm-4 col-md-4 col-lg-4">
+            <circle-progress
+             [percent]="85"
+             [radius]="100"
+             [imageSrc]="'../../../assets/js.png'"
+             [showImage]="true"
+             [imageHeight]="100"
+             [imageWidth]="100"
+             [showUnits]="false"
+             [showSubtitle]="false"
+             [outerStrokeWidth]="13"
+             [innerStrokeWidth]="3"
+             [outerStrokeColor]="'orange'"
+             [innerStrokeColor]="'orange'"
+             [animation]="true"
+             [animationDuration]="2000"
+            ></circle-progress>
 </div>
-<div class="row">
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-    [percent]="85"
-    [radius]="100"
-    [imageSrc]="'../../../assets/js.png'"
-    [showImage]="true"
-    [imageHeight]="100"
-    [imageWidth]="100"
-    [outerStrokeWidth]="13"
-    [innerStrokeWidth]="3"
-    [outerStrokeColor]="'orange'"
-    [innerStrokeColor]="'orange'"
-    [animation]="true"
-    [animationDuration]="2000"
-  ></circle-progress>
-</div>
-<div class="row">
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
+<div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
           [percent]="95"
           [radius]="100"
@@ -61,6 +66,8 @@
           [showImage]="true"
           [imageHeight]="100"
           [imageWidth]="100"
+          [showUnits]="false"
+          [showSubtitle]="false"
           [outerStrokeWidth]="13"
           [innerStrokeWidth]="3"
           [outerStrokeColor]="'orange'"
@@ -69,8 +76,7 @@
           [animationDuration]="2000"
         ></circle-progress>
 </div>
-<div class="row">
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
+<div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
           [percent]="100"
           [radius]="100"
@@ -78,6 +84,8 @@
           [showImage]="true"
           [imageHeight]="100"
           [imageWidth]="100"
+          [showUnits]="false"
+          [showSubtitle]="false"
           [outerStrokeWidth]="13"
           [innerStrokeWidth]="3"
           [outerStrokeColor]="'orange'"
@@ -86,8 +94,7 @@
           [animationDuration]="2000"
         ></circle-progress>
 </div>
-<div class="row">
-    <div class="text-center col-sm-4 col-md-4 col-lg-4">
+<div class="text-center col-sm-4 col-md-4 col-lg-4">
     <circle-progress
     [percent]="65"
     [radius]="100"
@@ -95,6 +102,8 @@
     [showImage]="true"
     [imageHeight]="100"
     [imageWidth]="100"
+    [showUnits]="false"
+    [showSubtitle]="false"
     [outerStrokeWidth]="13"
     [innerStrokeWidth]="3"
     [outerStrokeColor]="'orange'"
@@ -102,6 +111,5 @@
     [animation]="true"
     [animationDuration]="2000"
   ></circle-progress>
-</div>
 </div>
 </div>
