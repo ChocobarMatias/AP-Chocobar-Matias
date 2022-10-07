@@ -1,4 +1,3 @@
-
 package com.portfolio.matiassebastianchocobar.Entity;
 
 import javax.persistence.Entity;
@@ -15,7 +14,7 @@ import lombok.Setter;
 public class Persona {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     
     @NotNull
     @Size(min = 1, max = 50, message = "Falta ingresar Datos")
