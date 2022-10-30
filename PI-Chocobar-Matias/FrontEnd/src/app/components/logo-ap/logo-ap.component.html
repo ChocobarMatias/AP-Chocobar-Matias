@@ -11,7 +11,8 @@
             <a href="https://www.instagram.com/mat_choco/"><img src="../../../assets/instagram.png" alt="instagram"></a>
             <a href="https://www.facebook.com/chocobar.matias"><img src="../../../assets/facebook.png" alt="facebook"></a>
             <a href="https://twitter.com/Mat_Choco"><img src="../../../assets/twitter.png" alt="twitter"></a>
-            <button type="button" class="btn btn-outline-light" (click)="login()">Ingreso</button>
+            <button type="button" class="btn btn-outline-light" (click)="login()"*ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()"*ngIf="isLogged">CERRAR SESION</button>
         </div>
     </div>
 </div>
