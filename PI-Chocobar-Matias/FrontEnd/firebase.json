@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/pi-chocobar-matias",
+    "public": "dist/proyecto-final",
     "ignore": [
       "firebase.json",
       "**/.*",

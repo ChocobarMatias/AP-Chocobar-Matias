@@ -13,8 +13,8 @@ public class ImpPersonaService implements IPersonaService{
     
     @Override
     public List<Persona> getPersona() {
-       List<Persona> persona = ipersonaRepository.findAll();
-       return persona;        
+        List<Persona> persona = ipersonaRepository.findAll();
+        return persona;
     }
 
     @Override

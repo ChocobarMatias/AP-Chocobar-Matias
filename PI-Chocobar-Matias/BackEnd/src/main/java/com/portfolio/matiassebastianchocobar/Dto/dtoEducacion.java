@@ -33,4 +33,5 @@ public class dtoEducacion {
         this.descripcionE = descripcionE;
     }
     
+    
 }
