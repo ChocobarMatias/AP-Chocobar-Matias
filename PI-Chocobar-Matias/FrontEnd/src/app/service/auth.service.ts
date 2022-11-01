@@ -10,7 +10,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'http://localhost:8080/auth/';
+  authURL = 'https://backendchocobarmatias.herokuapp.com/auth/';
 
   //URL = environment.URL + 'auth/';
 
