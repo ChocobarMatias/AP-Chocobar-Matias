@@ -14,6 +14,7 @@ export class EducacionComponent implements OnInit {
   constructor(private educacionS: EducacionService, private tokenService: TokenService) { }
   isLogged = false;
 
+
   ngOnInit(): void {
     this.cargarEducacion();
     if(this.tokenService.getToken()){
@@ -22,6 +23,7 @@ export class EducacionComponent implements OnInit {
       this.isLogged = false;
     }
   }
+
 
   cargarEducacion(): void{
     this.educacionS.lista().subscribe(
@@ -42,4 +44,5 @@ export class EducacionComponent implements OnInit {
       )
     }
   }
+
 }

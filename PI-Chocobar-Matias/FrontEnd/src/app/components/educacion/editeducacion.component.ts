@@ -10,12 +10,11 @@ import { EducacionService } from 'src/app/service/educacion.service';
 })
 export class EditeducacionComponent implements OnInit {
   educacion: Educacion = null;
-  
-  constructor(
-    private educacionS: EducacionService,
-    private activatedRouter : ActivatedRoute,
-    private router: Router
-  ) { }
+
+
+  constructor( private educacionS: EducacionService,
+               private activatedRouter : ActivatedRoute,
+               private router: Router ) { }
 
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
@@ -29,6 +28,7 @@ export class EditeducacionComponent implements OnInit {
     )
   }
 
+
   onUpdate(): void{
     const id = this.activatedRouter.snapshot.params['id'];
     this.educacionS.update(id, this.educacion).subscribe(
@@ -40,4 +40,5 @@ export class EditeducacionComponent implements OnInit {
       }
     )
   }
+
 }

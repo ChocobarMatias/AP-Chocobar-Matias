@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
-import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HysComponent } from './components/hys/hys.component';
@@ -22,17 +22,15 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
-import { EditSkillComponent } from './components/hys/edit-skill.component';
-import { NewSkillComponent } from './components/hys/new-skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LogoAPComponent,
+    ExperienciaComponent,
     BannerComponent,
     AcercaDeComponent,
-    ExperienciaComponent,
     EducacionComponent,
     HysComponent,
     ProyectoComponent,
@@ -43,8 +41,6 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
-    EditSkillComponent,
-    NewSkillComponent,
   ],
   imports: [
     BrowserModule,
